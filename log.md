@@ -44,3 +44,12 @@ Resource: control.com, "Understanding Electrical Power Grids" ([link](https://co
 - Meeting consumer demand during N-1 state is not sufficient. If meeting that demand requires any line to exceed 100% thermal loading, the grid is in an insecure state
 
 </details>
+
+#### 10/8/2026: Define Project Deliverables
+
+- Established the normal operating case (N-0) and N-1 cases for the IEEE 14-bus system.
+- [AC Power Flow] Non-convergence using the Newton-Raphson method may be an indicator of grid stress, which includes voltage collapse or islanding.
+- Are the lines in limits for the benchmark case reasonable? If not, how should they be set?
+- Resources:
+  - Electrical Engineering Portal, "Learn To Interpret Single Line Diagram" ([link](https://electrical-engineering-portal.com/learn-to-interpret-single-line-diagram))
+  - Power Projects, "Contingency Analysis" ([link](https://powerprojectsindia.com/contingency-analysis/))
