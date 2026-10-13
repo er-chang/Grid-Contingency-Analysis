@@ -53,3 +53,12 @@ Resource: control.com, "Understanding Electrical Power Grids" ([link](https://co
 - Resources:
   - Electrical Engineering Portal, "Learn To Interpret Single Line Diagram" ([link](https://electrical-engineering-portal.com/learn-to-interpret-single-line-diagram))
   - Power Projects, "Contingency Analysis" ([link](https://powerprojectsindia.com/contingency-analysis/))
+
+#### 10/12/2026: Performance Index
+
+- Resolved line current calculations to obtain reasonable loading percentages. Ordered N-1 contingencies by performance index.
+- PI (performance index) is a score measures how severely the grid is stressed _after_ a component trips; a higher PI indicates a greater impact on the grid.
+- What adjustments are made to mitigate the effects of single-component failures?
+- Next: corrective actions
+
+Resource: EE Power, "Performance Index-Based Security Assessment and Screening Effect: Part 1" ([link](https://eepower.com/technical-articles/performance-index-based-security-assessment-and-screening-effectpart-1/#))
