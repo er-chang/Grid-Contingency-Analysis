@@ -62,3 +62,8 @@ Resource: control.com, "Understanding Electrical Power Grids" ([link](https://co
 - Next: corrective actions
 
 Resource: EE Power, "Performance Index-Based Security Assessment and Screening Effect: Part 1" ([link](https://eepower.com/technical-articles/performance-index-based-security-assessment-and-screening-effectpart-1/#))
+
+#### 10/13/2026: Resolve Limits
+
+- Fixed false overvoltage flags (prevent 1.09 pu from triggering violations), replaced placeholder line ratings by calculating apparent power, defined a function to check conditions.
+- Next: corrective actions
