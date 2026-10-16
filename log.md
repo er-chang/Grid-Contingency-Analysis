@@ -22,14 +22,14 @@ Resource: control.com, "Understanding Electrical Power Grids" ([link](https://co
 
 **Grid Vocabulary**
 
-- bus (node): where generators, loads, and lines connect
-- line (edge): the physical transmission wire connecting buses
-- generator: the power plant supplying power to the grid; total generation must always match the sum of total load and line losses
-- load: the power being consumed by a city, factory, neighborhood, etc. at a specific bus
-- power flow (load flow): mathematical calculation that determines exactly how much power is flowing down each line and what teh voltage is at each bus
-- thermal rating (capacity): the maximum physical limit of power a transmission line can withstand before it overheats, sags, and causes a fault
-- per-unit (p-u) voltage: a normalized way to measure voltage; grids typically must stay between 0.95 and 1.05 p-u to avoid damaging equipment
-- N-1 contingency: the loss of any individual component (a line, generator, or transformer) from a healthy grid
+- **Bus (Node)**: where generators, loads, and lines connect
+- **Line (Edge)**: the physical transmission wire connecting buses
+- **Generator**: the power plant supplying power to the grid; total generation must always match the sum of total load and line losses
+- **Load**: the power being consumed by a city, factory, neighborhood, etc. at a specific bus
+- **Power Flow (Load Flow)**: mathematical calculation that determines exactly how much power is flowing down each line and what teh voltage is at each bus
+- **Thermal Rating (Capacity)**: the maximum physical limit of power a transmission line can withstand before it overheats, sags, and causes a fault
+- **Per-unit (p-u) voltage**: a normalized way to measure voltage; grids typically must stay between 0.95 and 1.05 p-u to avoid damaging equipment
+- **N-1 contingency**: the loss of any individual component (a line, generator, or transformer) from a healthy grid
 
 **Transmission Line Ratings**
 
@@ -67,3 +67,20 @@ Resource: EE Power, "Performance Index-Based Security Assessment and Screening E
 
 - Fixed false overvoltage flags (prevent 1.09 pu from triggering violations), replaced placeholder line ratings by calculating apparent power, defined a function to check conditions.
 - Next: corrective actions
+
+#### 10/15-10/16/2026:
+
+- placeholder
+
+<details>
+<summary>Corrective Actions</summary>
+
+- **Load Shedding**: the deliberate, temporary shutdown/reduction of electricity supply to selected loads or customers by a utility company or grid operator
+- **Generation Redispatch**: adjusting the power output of generators to keep the grid operating safely and reduce grid stress
+- **Transformer Tap Changes**: adjusting a transformer's voltage transformation ratio to lower/raise voltage on the connected network
+- **Reactive Power Support**: providing or absorbing reactive power through equipment such as capacitor banks and reactors to help maintain acceptable voltage levels
+- **Emergency Imports**: obtaining additional electricity from neighboring power grids through interconncections to help relieve local generation shortages
+- **Rolling Blackouts**: planned, temporary outages affecting different areas at different times to reduce electricity demand (prevents wider grid collapse)
+  - last-resort measure
+
+</details>
