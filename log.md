@@ -68,9 +68,10 @@ Resource: EE Power, "Performance Index-Based Security Assessment and Screening E
 - Fixed false overvoltage flags (prevent 1.09 pu from triggering violations), replaced placeholder line ratings by calculating apparent power, defined a function to check conditions.
 - Next: corrective actions
 
-#### 10/15-10/16/2026:
+#### 10/15-10/17/2026: Cascading Outages
 
-- placeholder
+- Corrected variable references. Created a function to model cascading outages.
+- Intentional islanding may be used for cascading-failure mitigation by isolating a vulnerable area before faults cause additional overloads.
 
 <details>
 <summary>Corrective Actions</summary>
@@ -84,3 +85,8 @@ Resource: EE Power, "Performance Index-Based Security Assessment and Screening E
   - last-resort measure
 
 </details>
+
+- Resources:
+  - Marquette University, "Predicting Cascading Failures in Power Grids using Machine
+    Learning Algorithms" ([link](https://epublications.marquette.edu/cgi/viewcontent.cgi?article=1645&context=electric_fac))
+  - PowerOutage.com, "Power Grid Failure & Rolling Blackout Guide" ([link](https://poweroutage.us/storm-prep/power-grid-failure-rolling-blackout-guide))
