@@ -90,3 +90,9 @@ Resource: EE Power, "Performance Index-Based Security Assessment and Screening E
   - Marquette University, "Predicting Cascading Failures in Power Grids using Machine
     Learning Algorithms" ([link](https://epublications.marquette.edu/cgi/viewcontent.cgi?article=1645&context=electric_fac))
   - PowerOutage.com, "Power Grid Failure & Rolling Blackout Guide" ([link](https://poweroutage.us/storm-prep/power-grid-failure-rolling-blackout-guide))
+
+#### 10/18/2026: Corrective Actions
+
+- Fixed cascade sim to reveal 2 blackouts. Defined function for N-1 case. Created and implemented redispatch function at bus 1 generator.
+- It is vital to create copies of the network for testing while retaining the original model for reference.
+- Previous sim_cascade code contained several mistakes: tripped wrong line, unresolved NaN problem, looped forever, altered the original network.
