@@ -12,7 +12,8 @@ Resource: control.com, "Understanding Electrical Power Grids" ([link](https://co
 #### 10/7/2026: Power Grid Fundamentals
 
 - Drafted problem statement and objective.
-- What happens when a transmission line exceeds its normal rating? What occurs at each level?
+- **Q**: What happens when a transmission line exceeds its normal rating? What occurs at each level?
+  **A**:
   - normal/continuous rating (100%): safe for indefinite continuous operation
   - long-term emergency (LTE, ~110-115%): safe for 2 to 4 hours following an N-1 contingency, giving operators time to re-dispatch generation
   - short-term emergency (STE, ~120-130%): safe for 15 to 30 minutes to allow immediate automated switching
@@ -58,7 +59,7 @@ Resource: control.com, "Understanding Electrical Power Grids" ([link](https://co
 
 - Resolved line current calculations to obtain reasonable loading percentages. Ordered N-1 contingencies by performance index.
 - PI (performance index) is a score measures how severely the grid is stressed _after_ a component trips; a higher PI indicates a greater impact on the grid.
-- What adjustments are made to mitigate the effects of single-component failures?
+- **Q**: What adjustments are made to mitigate the effects of single-component failures?
 - Next: corrective actions
 
 Resource: EE Power, "Performance Index-Based Security Assessment and Screening Effect: Part 1" ([link](https://eepower.com/technical-articles/performance-index-based-security-assessment-and-screening-effectpart-1/#))
@@ -96,3 +97,12 @@ Resource: EE Power, "Performance Index-Based Security Assessment and Screening E
 - Fixed cascade sim to reveal 2 blackouts. Defined function for N-1 case. Created and implemented redispatch function at bus 1 generator.
 - It is vital to create copies of the network for testing while retaining the original model for reference.
 - Previous sim_cascade code contained several mistakes: tripped wrong line, unresolved NaN problem, looped forever, altered the original network.
+
+#### 10/19/2026: Corrective Actions (cont.)
+
+- Created table to compare before and after redispatch. Developed a load-shedding function to identify the most effective load to disconnect to minimize cascading failures.
+- **Q**: How do grid operators prioritize loads for disconnection during an emergency?
+  - **A**: A load shedding hierarchy protects critical infrastructure (e.g., hospitals and public safety networks) by disconnecting lower-priority loads (residential) when necessary.
+- Next: cover transformers and generators
+
+Resource: Law Gratis, "Load-Shedding Hierarchy Legal Governance." ([link](https://mail.lawgratis.com/blog-detail/load-shedding-hierarchy-legal-governance))
