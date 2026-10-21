@@ -1,6 +1,6 @@
 # Grid-Contingency-Analysis
 
-![alt text](https://spectrum.ieee.org/media-library/animated-gif-visualizing-a-distorted-map-of-the-united-states-switching-between-transmission-lines-susceptible-to-cascading-fai.gif?id=25584410&width=210)
+![Fallen Tree Blocks Road After Ice Storm](https://images.unsplash.com/photo-1769731431903-de98105592e9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D) _Image source: [Scott Greer](https://unsplash.com/photos/fallen-tree-blocks-road-after-ice-storm-7oVpsDc329A)_
 
 ## Overview/Objective
 

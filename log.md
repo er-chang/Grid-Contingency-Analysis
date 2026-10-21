@@ -106,3 +106,10 @@ Resource: EE Power, "Performance Index-Based Security Assessment and Screening E
 - Next: cover transformers and generators
 
 Resource: Law Gratis, "Load-Shedding Hierarchy Legal Governance." ([link](https://mail.lawgratis.com/blog-detail/load-shedding-hierarchy-legal-governance))
+
+#### 10/20/2026: Generators & Transformers
+
+- Extended code to include generators and transformers.
+- **Q**: What did the addition of generators and transformers reveal about N-1 case?
+  - **A**: More failures are brought to light that the line-only study missed. It exposes transformer 2 as being the most overloaded element (~117.38%).
+- Next: rating sensitivity sweep
