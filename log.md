@@ -113,3 +113,7 @@ Resource: Law Gratis, "Load-Shedding Hierarchy Legal Governance." ([link](https:
 - **Q**: What did the addition of generators and transformers reveal about N-1 case?
   - **A**: More failures are brought to light that the line-only study missed. It exposes transformer 2 as being the most overloaded element (~117.38%).
 - Next: rating sensitivity sweep
+
+#### 10/21-10/24: Comments
+
+- Reorganized notebook. Included analysis under each table/diagram. Fixed network diagrams to show missing elements.
