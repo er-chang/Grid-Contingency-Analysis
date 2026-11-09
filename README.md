@@ -16,7 +16,7 @@ The objective is to develop a Python script using the pandapower library to perf
 | ---------------------------------------------------- | :--------------------------: |
 | Analysis notebook                                    |       `notebook.ipynb`       |
 | Network diagrams (base, line0 out, transformer2 out) | `results/net_comparison.png` |
-| Hand-calculation check                               |           `docs/`            |
+| Documents                                            |           `docs/`            |
 | Daily study log                                      |           `log.md`           |
 | Dependencies                                         |      `requirements.txt`      |
 
